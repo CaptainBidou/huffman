@@ -1,0 +1,44 @@
+digraph root {
+	node [
+		fontname  = "Arial bold" 
+		fontsize  = "14"
+		fontcolor = "red"
+		style     = "rounded, filled"
+		shape     = "record"
+		fillcolor = "grey90"
+		color     = "blue"
+		width     = "2"
+	]
+
+	edge [
+		color     = "blue"
+	]
+
+	132 [label = "{<c> 132 | { <g> | <d>}}"];
+	132:g -> 65;
+	65 [label = "{<c> 65 | { <g> | <d>}}"];
+	65 [label = "{<c> 65 | { <g> NULL | <d> NULL}}"];
+	132:d -> 131;
+	131 [label = "{<c> 131 | { <g> | <d>}}"];
+	131:g -> 129;
+	129 [label = "{<c> 129 | { <g> | <d>}}"];
+	129:g -> 32;
+	32 [label = "{<c> 32 | { <g> | <d>}}"];
+	32 [label = "{<c> 32 | { <g> NULL | <d> NULL}}"];
+	129:d -> 128;
+	128 [label = "{<c> 128 | { <g> | <d>}}"];
+	128:g -> 67;
+	67 [label = "{<c> 67 | { <g> | <d>}}"];
+	67 [label = "{<c> 67 | { <g> NULL | <d> NULL}}"];
+	128:d -> 68;
+	68 [label = "{<c> 68 | { <g> | <d>}}"];
+	68 [label = "{<c> 68 | { <g> NULL | <d> NULL}}"];
+	131:d -> 130;
+	130 [label = "{<c> 130 | { <g> | <d>}}"];
+	130:g -> 82;
+	82 [label = "{<c> 82 | { <g> | <d>}}"];
+	82 [label = "{<c> 82 | { <g> NULL | <d> NULL}}"];
+	130:d -> 66;
+	66 [label = "{<c> 66 | { <g> | <d>}}"];
+	66 [label = "{<c> 66 | { <g> NULL | <d> NULL}}"];
+}

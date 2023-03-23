@@ -1,0 +1,43 @@
+digraph tas {
+	node [
+		fontname  = "Arial bold" 
+		fontsize  = "14"
+		fontcolor = "red"
+		style     = "rounded, filled"
+		shape     = "circle"
+		fillcolor = "grey90"
+		color     = "blue"
+		width     = "0.5"
+	]
+
+	edge [
+		color     = "blue"
+	]
+
+	0 [label = "111"];
+	0 [label = "111"];
+	0:sw -> 1;
+	1 [label = "65"];
+	1 [label = "65"];
+	1:sw -> 3;
+	3 [label = "142"];
+	3 [label = "142"];
+	3:sw -> 7;
+	7 [label = "101"];
+	3:se -> 8;
+	8 [label = "144"];
+	1:se -> 4;
+	4 [label = "115"];
+	4 [label = "115"];
+	4:sw -> 9;
+	9 [label = "143"];
+	4:se -> 10;
+	10 [label = "145"];
+	0:se -> 2;
+	2 [label = "138"];
+	2 [label = "138"];
+	2:sw -> 5;
+	5 [label = "116"];
+	2:se -> 6;
+	6 [label = "141"];
+}

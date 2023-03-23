@@ -1,0 +1,26 @@
+digraph root {
+	node [
+		fontname  = "Arial bold" 
+		fontsize  = "14"
+		fontcolor = "red"
+		style     = "rounded, filled"
+		shape     = "circle"
+		fillcolor = "grey90"
+		color     = "blue"
+		width     = "0.5"
+	]
+
+	edge [
+		color     = "blue"
+	]
+
+	0 [label = "-1987606394"];
+	0 [label = "-1987606394"];
+	0:sw -> 1;
+	1 [label = "1869899040"];
+	1 [label = "1869899040"];
+	1:sw -> 3;
+	3 [label = "2664"];
+	0:se -> 2;
+	2 [label = "1668509056"];
+}
